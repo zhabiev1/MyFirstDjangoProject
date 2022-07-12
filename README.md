@@ -12,3 +12,18 @@ Update GIT repository:
 3. create commit 
 4. push
 
+Create Django Project:
+1. File -> Open
+2. Pycharm projects -> MyDjangoProject
+3. Open
+4. django-admin startproject <name>
+5. Create venv
+6. python -m pip install Django
+
+Create and activate venv:
+1. python -m venv venv
+2. source venv/bin/activate
+
+Command Django:
+1. python manage.py runserver
+
