@@ -21,8 +21,8 @@ Create Django Project:
 6. python -m pip install Django
 
 Create and activate venv:
-1. python -m venv venv
-2. source venv/bin/activate
+1. python3 -m venv django-env
+2. source django-env/bin/activate
 
 Command Django:
 1. python manage.py runserver
