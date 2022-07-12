@@ -25,5 +25,7 @@ Create and activate venv:
 2. source django-env/bin/activate
 
 Command Django:
-1. python manage.py runserver
+1. python manage.py runserver - запуск проекта 
+2. python manage.py startapp <name-app> - создать отдельное приложение
+
 
