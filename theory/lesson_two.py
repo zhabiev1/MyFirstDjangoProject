@@ -27,7 +27,7 @@ HttpResponse – предназначен для отправки html стра�
 2. Вьюшка будет обрабатываться по этой ссылке
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls)
     path('', views.index),  описывает главную страницу сайта
     path('about/', views.about),
     path('contact/', views.contact),
