@@ -28,4 +28,15 @@ Command Django:
 1. python manage.py runserver - запуск проекта 
 2. python manage.py startapp <name-app> - создать отдельное приложение
 
+Usage of migration:
+1. python manage.py migrate 
+
+Creating new migration:
+1. python manage.py makemigrations
+2. python manage.py migrate 
+
+Create superuser:
+1. python manage.py createsuperuser
+
+
 
