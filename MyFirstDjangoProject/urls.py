@@ -1,24 +1,26 @@
 from django.contrib import admin
 from django.urls import path
-from firstapp import views as f_views
-from cars import views as k_views
-from users import views as  u_views
+from firstapp import views
+from appHeader import views as header_views
 
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-#     path('', f_views.index),
-#     path('about/', f_views.about),
-#     path('contact/', f_views.contact),
-#     path('car/info', k_views.index),
-#     path('car/price', k_views.price),
-#     path('buy/car', k_views.buy),
-# ]
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('products/<int:id>/', f_views.products),
-    path('users/<int:id>/<name>/', u_views.users),
+    path('', views.index),
+    path('about/', views.about),
+    path('contacts/', views.contacts),
+    path('details/', views.details),
+    path('container/', header_views.container),
+    path('box/', header_views.box),
+    path('info/', header_views.info),
+    path('description/', header_views.description),
+    path('split/', header_views.split),
 
 
 ]
+
+
+
+
+
+
 
